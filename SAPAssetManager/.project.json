@@ -1,0 +1,42 @@
+{
+	"validation": {
+		"exclude": {
+			"ui": [
+				"#Control:Comments"
+			],
+			"i18n": [
+				"map_settings_close",
+				"bm_title",
+				"fl_title",
+				"dl_title",
+				"map_nearme_dist_title",
+				"map_nearme_unit_title",
+				"map_nearme_mi",
+				"map_nearme_km",
+				"battery_saving_switch_title",
+				"battery_saving_switch_desctiption"
+			]
+		}
+	},
+	"Onboarding": {
+		"Schema": "sapmobilesvcs",
+		"TimeZone": "UTC",
+		"URL": ""
+	},
+	"CF": {
+		"Target": "https://api.cf.eu10.hana.ondemand.com",
+		"Organization": "5a8b9f5a-920b-4c44-9683-7606ef18db42",
+		"Space": "02a9fb0c-0a82-400c-ad37-7d5c8a487fe0"
+	},
+	"MobileService": {
+		"Type": "standard",
+		"AdminAPI": "https://mobile-service-cockpit-api.cfapps.eu10.hana.ondemand.com/cockpit/v1/org/5a8b9f5a-920b-4c44-9683-7606ef18db42/space/02a9fb0c-0a82-400c-ad37-7d5c8a487fe0",
+		"AppId": "COM.CRV.SSAM2405",
+		"Destination": []
+	},
+	"Build": {
+		"SourceMap": true,
+		"TSTarget": "es6",
+		"WMF": true
+	}
+}

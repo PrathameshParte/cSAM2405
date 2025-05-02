@@ -1,0 +1,58 @@
+{
+	"Credential": "cf",
+	"Template": {
+		"Id": "@ext-mdkvsc-npm-dev/generator-mdk",
+		"Name": "Base",
+		"Version": "0.0.1"
+	},
+	"CF": {
+		"Target": "https://api.cf.eu10.hana.ondemand.com",
+		"Organization": "5a8b9f5a-920b-4c44-9683-7606ef18db42",
+		"Space": "02a9fb0c-0a82-400c-ad37-7d5c8a487fe0",
+		"Deploy": {
+			"Description": "",
+			"WebClient": {
+				"Runtime": "",
+				"URL": ""
+			},
+			"Destination": [
+				{
+					"CF": "",
+					"MDK": "DEST_SAM2405_PPROP",
+					"URL": ""
+				}
+			]
+		}
+	},
+	"MobileService": {
+		"Type": "standard",
+		"AdminAPI": "https://mobile-service-cockpit-api.cfapps.eu10.hana.ondemand.com/cockpit/v1/org/5a8b9f5a-920b-4c44-9683-7606ef18db42/space/02a9fb0c-0a82-400c-ad37-7d5c8a487fe0/",
+		"AppId": "COM.CRV.SSAM2405",
+		"Destination": [
+			"DEST_SAM2405_ONLINE_PPROP",
+			"DEST_SAM2405_PPROP"
+		]
+	},
+	"Onboarding": {
+		"Schema": "sapmobilesvcs",
+		"TimeZone": "UTC",
+		"URL": "sapmobilesvcs://?AppId=COM.CRV.SSAM2405&ClientId=01c66f1d-8c5d-4b06-a2fa-06b5c8aca1ea&SapCloudPlatformEndpoint=https://craveirpa-craveirpa-com-crv-ssam2405.cfapps.eu10.hana.ondemand.com&AuthorizationEndpointUrl=https://craveirpa-craveirpa-com-crv-ssam2405.cfapps.eu10.hana.ondemand.com/oauth2/api/v1/authorize&RedirectUrl=https://craveirpa-craveirpa-com-crv-ssam2405.cfapps.eu10.hana.ondemand.com&TokenUrl=https://craveirpa-craveirpa-com-crv-ssam2405.cfapps.eu10.hana.ondemand.com/oauth2/api/v1/token"
+	},
+	"LCAP": {
+		"FullName": "",
+		"Service": [],
+		"sourceTemplate": {
+			"id": "html5moduletemplates.basicSAPUI5ApplicationProjectModule",
+			"version": "1.40.12"
+		}
+	},
+	"Build": {
+		"SourceMap": true,
+		"TSTarget": "es6",
+		"WMF": true,
+		"Platform": "iOS & Android"
+	},
+	"autoDeployToMSAfterCreation": {
+		"revision": "13"
+	}
+}

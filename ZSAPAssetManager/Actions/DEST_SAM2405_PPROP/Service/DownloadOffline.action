@@ -1,0 +1,10 @@
+{
+    "Service": "/ZSAPAssetManager/Services/DEST_SAM2405_PPROP.service",
+    "DefiningRequests": [],
+    "_Type": "Action.Type.OfflineOData.Download",
+    "ActionResult": {
+        "_Name": "sync"
+    },
+    "OnFailure": "/ZSAPAssetManager/Actions/DEST_SAM2405_PPROP/Service/SyncFailureMessage.action",
+    "OnSuccess": "/ZSAPAssetManager/Rules/DEST_SAM2405_PPROP/ErrorArchive_CheckForSyncError.js"
+}

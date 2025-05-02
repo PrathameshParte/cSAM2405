@@ -1,0 +1,11 @@
+{
+    "Service": "/ZSAPAssetManager/Services/DEST_SAM2405_PPROP.service",
+    "DefiningRequests": [],
+    "_Type": "Action.Type.ODataService.Initialize",
+    "ShowActivityIndicator": true,
+    "ActivityIndicatorText": "Downloading...",
+    "ActionResult": {
+        "_Name": "init"
+    },
+    "OnFailure": "/ZSAPAssetManager/Actions/DEST_SAM2405_PPROP/Service/InitializeOfflineFailureMessage.action"
+}

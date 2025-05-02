@@ -1,0 +1,287 @@
+{
+    "Service": "/ZSAPAssetManager/Services/DEST_SAM2405_ONLINE_PPROP.service",
+    "DefiningRequests": [{
+            "Name": "AddressCommunications",
+            "Query": "AddressCommunications"
+        },
+        {
+            "Name": "Addresses",
+            "Query": "Addresses"
+        },
+        {
+            "Name": "AddressGeocodes",
+            "Query": "AddressGeocodes"
+        },
+        {
+            "Name": "AppParameters",
+            "Query": "AppParameters"
+        },
+        {
+            "Name": "BOMHeaders",
+            "Query": "BOMHeaders"
+        },
+        {
+            "Name": "BOMItems",
+            "Query": "BOMItems"
+        },
+        {
+            "Name": "BusinessPartners",
+            "Query": "BusinessPartners"
+        },
+        {
+            "Name": "Characteristics",
+            "Query": "Characteristics"
+        },
+        {
+            "Name": "ClassCharacteristics",
+            "Query": "ClassCharacteristics"
+        },
+        {
+            "Name": "ClassCharacteristicValues",
+            "Query": "ClassCharacteristicValues"
+        },
+        {
+            "Name": "ClassDefinitions",
+            "Query": "ClassDefinitions"
+        },
+        {
+            "Name": "DigitalSignatureCommit",
+            "Query": "DigitalSignatureCommit"
+        },
+        {
+            "Name": "Documents",
+            "Query": "Documents"
+        },
+        {
+            "Name": "EquipmentBOMs",
+            "Query": "EquipmentBOMs"
+        },
+        {
+            "Name": "EquipmentClassCharValues",
+            "Query": "EquipmentClassCharValues"
+        },
+        {
+            "Name": "EquipmentClasses",
+            "Query": "EquipmentClasses"
+        },
+        {
+            "Name": "EquipmentDocuments",
+            "Query": "EquipmentDocuments"
+        },
+        {
+            "Name": "EquipmentGeometries",
+            "Query": "EquipmentGeometries"
+        },
+        {
+            "Name": "EquipmentLongTexts",
+            "Query": "EquipmentLongTexts"
+        },
+        {
+            "Name": "EquipmentPartners",
+            "Query": "EquipmentPartners"
+        },
+        {
+            "Name": "Equipments",
+            "Query": "Equipments"
+        },
+        {
+            "Name": "EquipmentSerialNumbers",
+            "Query": "EquipmentSerialNumbers"
+        },
+        {
+            "Name": "EquipmentSystemStatuses",
+            "Query": "EquipmentSystemStatuses"
+        },
+        {
+            "Name": "EquipmentUserStatuses",
+            "Query": "EquipmentUserStatuses"
+        },
+        {
+            "Name": "EquipmentWarranties",
+            "Query": "EquipmentWarranties"
+        },
+        {
+            "Name": "EquipmentWarrantyLongTexts",
+            "Query": "EquipmentWarrantyLongTexts"
+        },
+        {
+            "Name": "FuncLocClassCharValues",
+            "Query": "FuncLocClassCharValues"
+        },
+        {
+            "Name": "FuncLocClasses",
+            "Query": "FuncLocClasses"
+        },
+        {
+            "Name": "FuncLocDocuments",
+            "Query": "FuncLocDocuments"
+        },
+        {
+            "Name": "FuncLocGeometries",
+            "Query": "FuncLocGeometries"
+        },
+        {
+            "Name": "FuncLocLongTexts",
+            "Query": "FuncLocLongTexts"
+        },
+        {
+            "Name": "FuncLocPartners",
+            "Query": "FuncLocPartners"
+        },
+        {
+            "Name": "FuncLocSystemStatuses",
+            "Query": "FuncLocSystemStatuses"
+        },
+        {
+            "Name": "FuncLocUserStatuses",
+            "Query": "FuncLocUserStatuses"
+        },
+        {
+            "Name": "FunctionalLocationBOMs",
+            "Query": "FunctionalLocationBOMs"
+        },
+        {
+            "Name": "FunctionalLocations",
+            "Query": "FunctionalLocations"
+        },
+        {
+            "Name": "Geometries",
+            "Query": "Geometries"
+        },
+        {
+            "Name": "GISMapParameters",
+            "Query": "GISMapParameters"
+        },
+        {
+            "Name": "GlobalParameters",
+            "Query": "GlobalParameters"
+        },
+        {
+            "Name": "InitialSyncRequests",
+            "Query": "InitialSyncRequests"
+        },
+        {
+            "Name": "InventoryObjectItems",
+            "Query": "InventoryObjectItems"
+        },
+        {
+            "Name": "InventoryObjects",
+            "Query": "InventoryObjects"
+        },
+        {
+            "Name": "MaterialBatches",
+            "Query": "MaterialBatches"
+        },
+        {
+            "Name": "MaterialBatchStockSet",
+            "Query": "MaterialBatchStockSet"
+        },
+        {
+            "Name": "MaterialBOMs",
+            "Query": "MaterialBOMs"
+        },
+        {
+            "Name": "MaterialPlants",
+            "Query": "MaterialPlants"
+        },
+        {
+            "Name": "MaterialProjectStocks",
+            "Query": "MaterialProjectStocks"
+        },
+        {
+            "Name": "Materials",
+            "Query": "Materials"
+        },
+        {
+            "Name": "MaterialSLocs",
+            "Query": "MaterialSLocs"
+        },
+        {
+            "Name": "MaterialUOMs",
+            "Query": "MaterialUOMs"
+        },
+        {
+            "Name": "MaterialVendorConsignmentStocks",
+            "Query": "MaterialVendorConsignmentStocks"
+        },
+        {
+            "Name": "MeasurementDocumentLongTexts",
+            "Query": "MeasurementDocumentLongTexts"
+        },
+        {
+            "Name": "MeasurementDocuments",
+            "Query": "MeasurementDocuments"
+        },
+        {
+            "Name": "MeasuringPoints",
+            "Query": "MeasuringPoints"
+        },
+        {
+            "Name": "MeasuringPointTexts",
+            "Query": "MeasuringPointTexts"
+        },
+        {
+            "Name": "MobileClientSynchronizationSessions",
+            "Query": "MobileClientSynchronizationSessions"
+        },
+        {
+            "Name": "ModifiedEntities",
+            "Query": "ModifiedEntities"
+        },
+        {
+            "Name": "OauthTokens",
+            "Query": "OauthTokens"
+        },
+        {
+            "Name": "PersonaFeatureEntityLinks",
+            "Query": "PersonaFeatureEntityLinks"
+        },
+        {
+            "Name": "Plants",
+            "Query": "Plants"
+        },
+        {
+            "Name": "StorageLocations",
+            "Query": "StorageLocations"
+        },
+        {
+            "Name": "TOTPDevices",
+            "Query": "TOTPDevices"
+        },
+        {
+            "Name": "TOTPDeviceValidates",
+            "Query": "TOTPDeviceValidates"
+        },
+        {
+            "Name": "UserFeatures",
+            "Query": "UserFeatures"
+        },
+        {
+            "Name": "UserLocations",
+            "Query": "UserLocations"
+        },
+        {
+            "Name": "UserPersonas",
+            "Query": "UserPersonas"
+        },
+        {
+            "Name": "UserPreferences",
+            "Query": "UserPreferences"
+        },
+        {
+            "Name": "UserSyncGroupDetails",
+            "Query": "UserSyncGroupDetails"
+        },
+        {
+            "Name": "UserSystemInfos",
+            "Query": "UserSystemInfos"
+        }
+    ],
+    "_Type": "Action.Type.ODataService.Initialize",
+    "ShowActivityIndicator": true,
+    "ActivityIndicatorText": "Downloading...",
+    "ActionResult": {
+        "_Name": "init"
+    },
+    "OnFailure": "/ZSAPAssetManager/Actions/DEST_SAM2405_ONLINE_PPROP/Service/InitializeOfflineFailureMessage.action"
+}
