@@ -1,0 +1,90 @@
+{
+	"Controls": [
+		{
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable0",
+			"Sections": [
+				{
+					"_Type": "Section.Type.ObjectHeader",
+					"_Name": "Header",
+					"ObjectHeader": {
+						"Subhead": "SAMPLING PT: J2/TC557",
+						"Footnote": "SAMP PT. NAME:  IPC WASH MACHINE",
+						"Description": "ORDER STATUS: REL",
+						"StatusText": "START DATE: 01-JUN-2025",
+						"SubstatusText": "/ZSAPAssetManager/Rules/Stopwatch/GetTimerDisplayText.js",
+						"DetailImageIsCircular": false,
+						"Tags": [
+							"SAMP PT. LOC. DESC: 2 BLK-A-NEW TABLET GRANULATION",
+							"MOB. STATUS: RELEASE"
+						],
+						"BodyText": "SAMP PT LOCATION: J2-A-TC-GRA",
+						"HeadlineText": "ORDER NO: 951436258",
+						"StatusPosition": "Stacked",
+						"StatusImagePosition": "Leading",
+						"SubstatusImagePosition": "Leading"
+					},
+					"Visible": true
+				},
+				{
+					"_Type": "Section.Type.ButtonTable",
+					"_Name": "SectionButtonTable0",
+					"Visible": true,
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Separators": {
+						"TopSectionSeparator": false,
+						"BottomSectionSeparator": false,
+						"HeaderSeparator": true,
+						"FooterSeparator": false,
+						"ControlSeparator": false
+					},
+					"Buttons": [
+						{
+							"_Type": "ButtonTable.Type.Button",
+							"_Name": "ButtonTableTypeButton0",
+							"Title": "START",
+							"Alignment": "Center",
+							"ButtonType": "Primary",
+							"Semantic": "Tint",
+							"ImagePosition": "Leading",
+							"FullWidth": false,
+							"Visible": true,
+							"Enabled": true,
+							"OnPress": "/ZSAPAssetManager/Rules/Stopwatch/OnStartHeader.js"
+						},
+						{
+							"_Type": "ButtonTable.Type.Button",
+							"_Name": "ButtonTableTypeButton1",
+							"Title": "STOP",
+							"Alignment": "Center",
+							"ButtonType": "Primary",
+							"Semantic": "Tint",
+							"ImagePosition": "Leading",
+							"FullWidth": false,
+							"Visible": true,
+							"Enabled": true,
+							"OnPress": "/ZSAPAssetManager/Rules/Stopwatch/OnStopHeader.js"
+						}
+					],
+					"Layout": {
+						"LayoutType": "Horizontal",
+						"HorizontalAlignment": "Leading"
+					}
+				}
+			],
+			"FilterFeedbackBar": {
+				"ShowAllFilters": false,
+				"_Type": "Control.Type.FilterFeedbackBar"
+			}
+		}
+	],
+	"_Type": "Page",
+	"_Name": "stopwatch_headertrial",
+	"ActionBar": {
+		"Items": [],
+		"_Name": "ActionBar1",
+		"_Type": "Control.Type.ActionBar"
+	}
+}

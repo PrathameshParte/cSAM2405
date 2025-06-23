@@ -1,4 +1,22 @@
 {
 	"ProjectName": "ZSAPAssetManager",
-	"ApplicationName": "ZSAPAssetManager"
+	"ApplicationName": "ZSAPAssetManager",
+	"IntegrationPoints": [
+		{
+			"Source": "/ZSAPAssetManager/i18n/i18n.properties",
+			"Target": "/SAPAssetManager/i18n/i18n.properties"
+		},
+		{
+			"Source": "/ZSAPAssetManager/Pages/Equipment/Installation/EquipmentInstallation.page",
+			"Target": "/SAPAssetManager/Pages/Equipment/Installation/EquipmentInstallation.page"
+		},
+		{
+			"Source": "/ZSAPAssetManager/Pages/Equipment/EquipmentCreateUpdate.page",
+			"Target": "/SAPAssetManager/Pages/Equipment/EquipmentCreateUpdate.page"
+		},
+		{
+			"Source": "/ZSAPAssetManager/Rules/Common/Platform/DoneText.js",
+			"Target": "/SAPAssetManager/Rules/Common/Platform/DoneText.js"
+		}
+	]
 }

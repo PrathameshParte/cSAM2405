@@ -2,6 +2,7 @@ import libCom from '../../Common/Library/CommonLibrary';
 import { DynamicPageGenerator } from '../../FDC/DynamicPageGenerator';
 
 export default function MeasuringPointsDataEntryNav(context) {
+
     //Remove old readings from memory
     libCom.setStateVariable(context, 'TransactionType', 'CREATE');
     libCom.setStateVariable(context, 'ReadingType', 'MULTIPLE');

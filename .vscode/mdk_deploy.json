@@ -1,0 +1,10 @@
+{
+	"Application": "/home/user/projects/cSAM2405/SAPAssetManager/Application.app",
+	"Target": "Mobile Services",
+	"OtherApps": [
+		{
+			"Application": "/home/user/projects/cSAM2405/SAPAssetManager/Application.app",
+			"Target": "Mobile Services"
+		}
+	]
+}

@@ -1,2 +1,2 @@
 Pass:
-Generated bundle file /home/user/projects/SAPAssetManager/.build/SAPAssetManager/.build/uploadBundle.zip
+Generated bundle file /home/user/projects/cSAM2405/SAPAssetManager/.build/SAPAssetManager/.build/uploadBundle.zip

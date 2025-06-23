@@ -1,0 +1,69 @@
+{
+	"Controls": [
+		{
+			"_Type": "Control.Type.FormCellContainer",
+			"_Name": "FormCellContainer0",
+			"Sections": [
+				{
+					"Controls": [
+						{
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "userid",
+							"IsVisible": true,
+							"Caption": "User ID",
+							"PlaceHolder": "Enter your User ID",
+							"Enabled": true,
+							"IsEditable": true
+						},
+						{
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "pin",
+							"IsVisible": true,
+							"Caption": "PIN",
+							"PlaceHolder": "Enter your PIN",
+							"Enabled": true,
+							"IsEditable": true
+						},
+						{
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "remarks",
+							"IsVisible": true,
+							"Caption": "Remarks",
+							"PlaceHolder": "Enter your remark",
+							"Enabled": true,
+							"IsEditable": true
+						},
+						{
+							"Value": false,
+							"_Type": "Control.Type.FormCell.Switch",
+							"_Name": "switch",
+							"IsVisible": true,
+							"Caption": "Can be used? ",
+							"IsEditable": true
+						},
+						{
+							"_Type": "Control.Type.FormCell.Button",
+							"_Name": "submitbtn",
+							"IsVisible": true,
+							"Title": "Submit",
+							"Alignment": "Right",
+							"ButtonType": "Text",
+							"Semantic": "Tint",
+							"ImagePosition": "Leading",
+							"Enabled": true
+						}
+					],
+					"_Name": "FormCellSection0",
+					"Visible": true
+				}
+			]
+		}
+	],
+	"_Type": "Page",
+	"_Name": "UsageDecision",
+	"ActionBar": {
+		"Items": [],
+		"_Name": "ActionBar1",
+		"_Type": "Control.Type.ActionBar"
+	}
+}

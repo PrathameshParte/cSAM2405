@@ -1,45 +1,66 @@
 [
-    {
-        "_Name": "FlexibleSpaceLeft",
-        "_Type": "Control.Type.ToolbarItem",
-        "SystemItem": "FlexibleSpace",
-        "Visible": "/SAPAssetManager/Rules/Common/DetailsPageToolbar/IsLeftSpaceVisible.js"
-    },
-    {
-        "_Name": "WorkOrderOperationDetailsPageTbI0",
-        "_Type": "Control.Type.ToolbarItem",
-        "Caption": "/SAPAssetManager/Rules/Common/DetailsPageToolbar/ToolbarItemGetCaption.js",
-        "OnPress": "/SAPAssetManager/Rules/Common/DetailsPageToolbar/ToolbarItemGetOnPress.js",
-        "Visible": "/SAPAssetManager/Rules/Common/DetailsPageToolbar/ToolbarItemGetVisibility.js",
-        "ItemType": "/SAPAssetManager/Rules/Common/DetailsPageToolbar/ToolbarItemType.js",
-        "DataSubscriptions": ["Confirmations", "Employees"]
-    },
-    {
-        "_Name": "FlexibleSpaceMiddle",
-        "_Type": "Control.Type.ToolbarItem",
-        "SystemItem": "FlexibleSpace",
-        "Visible": "/SAPAssetManager/Rules/Common/DetailsPageToolbar/IsMiddleSpaceVisible.js"
-    },
-    {
-        "_Name": "WorkOrderOperationDetailsPageTbI1",
-        "_Type": "Control.Type.ToolbarItem",
-        "Caption": "/SAPAssetManager/Rules/Common/DetailsPageToolbar/ToolbarItemGetCaption.js",
-        "OnPress": "/SAPAssetManager/Rules/Common/DetailsPageToolbar/ToolbarItemGetOnPress.js",
-        "Visible": "/SAPAssetManager/Rules/Common/DetailsPageToolbar/ToolbarItemGetVisibility.js",
-        "DataSubscriptions": ["Confirmations", "Employees"]
-    },
-    {
-        "_Name": "FlexibleSpaceRight",
-        "_Type": "Control.Type.ToolbarItem",
-        "SystemItem": "FlexibleSpace",
-        "Visible": "/SAPAssetManager/Rules/Common/DetailsPageToolbar/IsRightSpaceVisible.js"
-    },
-    {
-        "_Name": "WorkOrderOperationDetailsPageTbI2",
-        "_Type": "Control.Type.ToolbarItem",
-        "Caption": "/SAPAssetManager/Rules/Common/DetailsPageToolbar/ToolbarItemGetCaption.js",
-        "OnPress": "/SAPAssetManager/Rules/Common/DetailsPageToolbar/ToolbarItemGetOnPress.js",
-        "Visible": "/SAPAssetManager/Rules/Common/DetailsPageToolbar/ToolbarItemGetVisibility.js",
-        "DataSubscriptions": ["Confirmations", "Employees"]
-    }
+	{
+		"_Type": "Control.Type.ToolbarItem",
+		"_Name": "FlexibleSpaceLeft",
+		"Enabled": true,
+		"Visible": "/SAPAssetManager/Rules/Common/DetailsPageToolbar/IsLeftSpaceVisible.js",
+		"Clickable": true,
+		"SystemItem": "FlexibleSpace"
+	},
+	{
+		"DataSubscriptions": [
+			"Confirmations",
+			"Employees"
+		],
+		"_Type": "Control.Type.ToolbarItem",
+		"_Name": "WorkOrderOperationDetailsPageTbI0",
+		"Caption": "/SAPAssetManager/Rules/Common/DetailsPageToolbar/ToolbarItemGetCaption.js",
+		"Enabled": true,
+		"Visible": "/SAPAssetManager/Rules/Common/DetailsPageToolbar/ToolbarItemGetVisibility.js",
+		"Clickable": true,
+		"ItemType": "/SAPAssetManager/Rules/Common/DetailsPageToolbar/ToolbarItemType.js",
+		"OnPress": "/SAPAssetManager/Rules/Common/DetailsPageToolbar/ToolbarItemGetOnPress.js"
+	},
+	{
+		"_Type": "Control.Type.ToolbarItem",
+		"_Name": "FlexibleSpaceMiddle",
+		"Enabled": true,
+		"Visible": "/SAPAssetManager/Rules/Common/DetailsPageToolbar/IsMiddleSpaceVisible.js",
+		"Clickable": true,
+		"SystemItem": "FlexibleSpace"
+	},
+	{
+		"DataSubscriptions": [
+			"Confirmations",
+			"Employees"
+		],
+		"_Type": "Control.Type.ToolbarItem",
+		"_Name": "WorkOrderOperationDetailsPageTbI1",
+		"Caption": "/SAPAssetManager/Rules/Common/DetailsPageToolbar/ToolbarItemGetCaption.js",
+		"Enabled": true,
+		"Visible": "/SAPAssetManager/Rules/Common/DetailsPageToolbar/ToolbarItemGetVisibility.js",
+		"Clickable": true,
+		"OnPress": "/SAPAssetManager/Rules/Common/DetailsPageToolbar/ToolbarItemGetOnPress.js"
+	},
+	{
+		"_Type": "Control.Type.ToolbarItem",
+		"_Name": "FlexibleSpaceRight",
+		"Enabled": true,
+		"Visible": "/SAPAssetManager/Rules/Common/DetailsPageToolbar/IsRightSpaceVisible.js",
+		"Clickable": true,
+		"SystemItem": "FlexibleSpace"
+	},
+	{
+		"DataSubscriptions": [
+			"Confirmations",
+			"Employees"
+		],
+		"_Type": "Control.Type.ToolbarItem",
+		"_Name": "WorkOrderOperationDetailsPageTbI2",
+		"Caption": "/SAPAssetManager/Rules/Common/DetailsPageToolbar/ToolbarItemGetCaption.js",
+		"Enabled": true,
+		"Visible": "/SAPAssetManager/Rules/Common/DetailsPageToolbar/ToolbarItemGetVisibility.js",
+		"Clickable": true,
+		"OnPress": "/SAPAssetManager/Rules/Common/DetailsPageToolbar/ToolbarItemGetOnPress.js"
+	}
 ]

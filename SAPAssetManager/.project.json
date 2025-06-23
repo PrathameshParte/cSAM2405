@@ -21,7 +21,7 @@
 	"Onboarding": {
 		"Schema": "sapmobilesvcs",
 		"TimeZone": "UTC",
-		"URL": ""
+		"URL": "sapmobilesvcs://?AppId=COM.CRV.SSAM2405&ClientId=01c66f1d-8c5d-4b06-a2fa-06b5c8aca1ea&ServerUrl=https://craveirpa-craveirpa-com-crv-ssam2405.cfapps.eu10.hana.ondemand.com&SapCloudPlatformEndpoint=https://craveirpa-craveirpa-com-crv-ssam2405.cfapps.eu10.hana.ondemand.com&AuthorizationEndpointUrl=https://craveirpa-craveirpa-com-crv-ssam2405.cfapps.eu10.hana.ondemand.com/oauth2/api/v1/authorize&RedirectUrl=https://craveirpa-craveirpa-com-crv-ssam2405.cfapps.eu10.hana.ondemand.com&TokenUrl=https://craveirpa-craveirpa-com-crv-ssam2405.cfapps.eu10.hana.ondemand.com/oauth2/api/v1/token&multiUser=false"
 	},
 	"CF": {
 		"Target": "https://api.cf.eu10.hana.ondemand.com",
@@ -32,7 +32,10 @@
 		"Type": "standard",
 		"AdminAPI": "https://mobile-service-cockpit-api.cfapps.eu10.hana.ondemand.com/cockpit/v1/org/5a8b9f5a-920b-4c44-9683-7606ef18db42/space/02a9fb0c-0a82-400c-ad37-7d5c8a487fe0",
 		"AppId": "COM.CRV.SSAM2405",
-		"Destination": []
+		"Destination": [
+			"DEST_SAM2405_PPROP",
+			"DEST_SAM2405_ONLINE_PPROP"
+		]
 	},
 	"Build": {
 		"SourceMap": true,

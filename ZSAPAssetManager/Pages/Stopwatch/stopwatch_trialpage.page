@@ -1,0 +1,76 @@
+{
+	"Controls": [
+		{
+			"_Type": "Control.Type.FormCellContainer",
+			"_Name": "FormCellContainer0",
+			"Sections": [
+				{
+					"Controls": [
+						{
+							"Value": "00:00:00",
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "Duration",
+							"IsVisible": true,
+							"Caption": "Duration",
+							"KeyboardType": "Default",
+							"AlternateInput": "None",
+							"Enabled": true,
+							"IsEditable": false
+						},
+						{
+							"_Type": "Control.Type.FormCell.Button",
+							"_Name": "strbtn",
+							"IsVisible": true,
+							"Title": "Start",
+							"Alignment": "Center",
+							"ButtonType": "Primary",
+							"Semantic": "Tint",
+							"ImagePosition": "Leading",
+							"Enabled": true,
+							"OnPress": "/ZSAPAssetManager/Rules/Stopwatch/onStart.js"
+						},
+						{
+							"_Type": "Control.Type.FormCell.Button",
+							"_Name": "stopbtn",
+							"IsVisible": true,
+							"Title": "Stop",
+							"Alignment": "Center",
+							"ButtonType": "Primary",
+							"Semantic": "Tint",
+							"ImagePosition": "Leading",
+							"Enabled": true,
+							"OnPress": "/ZSAPAssetManager/Rules/Stopwatch/onStop.js"
+						}
+					],
+					"_Name": "FormCellSection0",
+					"Visible": true
+				},
+				{
+					"_Name": "FormCellSection1",
+					"Controls": [
+						{
+							"_Type": "Control.Type.FormCell.Button",
+							"_Name": "GenericTestBtn",
+							"IsVisible": true,
+							"Title": "Generic Button",
+							"Alignment": "Center",
+							"ButtonType": "Primary",
+							"Semantic": "Tint",
+							"ImagePosition": "Leading",
+							"Enabled": true,
+							"OnPress": "/ZSAPAssetManager/Rules/Stopwatch/OnclickGenerateBtn.js"
+						}
+					],
+					"Visible": true
+				}
+			]
+		}
+	],
+	"_Type": "Page",
+	"_Name": "stopwatch_trialpage",
+	"ActionBar": {
+		"Items": [],
+		"_Name": "ActionBar2",
+		"_Type": "Control.Type.ActionBar"
+	}
+}
